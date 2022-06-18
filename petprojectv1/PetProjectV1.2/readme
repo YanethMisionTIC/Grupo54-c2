@@ -1,0 +1,8 @@
+Creamos el primer proyecto que contiene dos clases:
+1. La clase ejecutora que contiene el método Main, en el cual:
+  - Se llama la clase PetClass
+  - Mediante la instancia de la clase PetClass, accedemos al método ShowPetInformation()
+2. La clase PetClass, la cual:
+  - Contiene los atributos
+  - Contiene el método ShowPetInformation()
+  - Contiene las funciones GETTER de cada atributo
