@@ -35,21 +35,19 @@ public class Exercise5 {
         //Para validar si una cadena de texto es igual a otra NO SE DEBE UTILIZAR ==
         while (numberAttempts < 3) {
             if (wifiPassword.equals("ABC123")) {
+                //Mensaje caso éxitoso:
+                System.out.println("Conectado a la red WIFI de tu casa.");
                 break;
             } else {
                 System.out.println("Contraseña incorrecta. Password: ");
                 wifiPassword = inputDataUser.nextLine();
+                if (numberAttempts == 2) {
+                    System.out.println("*************Usuario sido bloqueado.*************");
+                }
             }
             numberAttempts += 1;
             //numberAttempts = numberAttempts + 1
         }
-        System.out.println("Conectado a la red WIFI de tu casa.");
-//      Ejemplo de por qué no utilizar doble igual de comparación entre cadenas de texto 
-//         if(wifiPassword == "ABC123"){
-//            System.out.println("Si coinciden");
-//        }else{
-//            System.out.println("No coinciden. Doble igual");
-//        }
-    }
 
+    }
 }
