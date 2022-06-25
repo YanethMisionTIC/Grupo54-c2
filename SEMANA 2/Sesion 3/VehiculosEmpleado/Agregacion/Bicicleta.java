@@ -6,6 +6,9 @@ public class Bicicleta {
     public String marcaBicicleta;
     private static int contadorBicicletas;
 
+    public Bicicleta() {
+    }
+
     public Bicicleta(String marcaBicicleta) {
         this.marcaBicicleta = marcaBicicleta;
         this.idBicicleta = ++Bicicleta.contadorBicicletas;
