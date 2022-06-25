@@ -8,6 +8,9 @@ public class Auto {
     public String placa;
     private static int contadorAutos;
 
+    public Auto() {
+    }
+
     public Auto(String modelo, String color, String placa) {
         this.modelo = modelo;
         this.color = color;
