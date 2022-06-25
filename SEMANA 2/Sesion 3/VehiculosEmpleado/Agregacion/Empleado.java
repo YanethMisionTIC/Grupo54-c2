@@ -1,5 +1,4 @@
 package Agregacion;
-
 /*
     Ejemplo de agregación: Al empleado se le agrega carro o bicileta
 */
@@ -20,12 +19,12 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{\n" +"      Emp: " + idEmp 
-                + ",\n      Empleado: " + nombreEmp 
-                + ",\n      Placa vehiculo: " + auto.placa 
-                + ",\n      Color: " + auto.color
-                + ",\n      Modelo: " + auto.modelo
-                + ",\n      bicicleta: " + bicicleta.marcaBicicleta + "\n}";
+        return "    {\n" +"         Emp: " + idEmp 
+                + ",\n         Nombre: " + nombreEmp 
+                + ",\n         Placa vehiculo: " + auto.placa 
+                + ",\n         Color: " + auto.color
+                + ",\n         Modelo: " + auto.modelo
+                + ",\n         bicicleta: " + bicicleta.marcaBicicleta + "\n    },";
     }
     
     
